@@ -1,0 +1,14 @@
+<String>
+    <Name_Prompt>Enter user name : </Name_Prompt>
+    <Mobile_No>Enter Mobile No. : </Mobile_No>
+    <Email_Prompt>Enter email ID : </Email_Prompt>
+    <Get_Choice>1-Update Mobile no.\n2-Update email</Get_Choice>
+    <Get_Name>Enter contact name : </Get_Name>
+    <Get_Value>Enter new value</Get_Value>
+    <user_menu>1 : Add New Contact\n
+2 : Edit an existing contact
+3 : Delete Contact
+4 : Search Contact
+5 : Exit
+    </user_menu>
+</String>

@@ -1,0 +1,17 @@
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Contact Mgmt.exe
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Contact Mgmt.deps.json
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Contact Mgmt.runtimeconfig.json
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Contact Mgmt.dll
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Contact Mgmt.pdb
+C:\WG Projects\C#\Contact Mgmt\bin\Debug\net6.0\Figgle.dll
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.csproj.AssemblyReference.cache
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.GeneratedMSBuildEditorConfig.editorconfig
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.AssemblyInfoInputs.cache
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.AssemblyInfo.cs
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.csproj.CoreCompileInputs.cache
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.csproj.CopyComplete
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.dll
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\refint\Contact Mgmt.dll
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.pdb
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\Contact Mgmt.genruntimeconfig.cache
+C:\WG Projects\C#\Contact Mgmt\obj\Debug\net6.0\ref\Contact Mgmt.dll
