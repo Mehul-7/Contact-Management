@@ -3,7 +3,7 @@ using Watchguard.Phonebook.XmlOperations;
 
 namespace Watchguard.Phonebook.CsvOperations{
     class CsvHandler{
-        private string path=@"C:\WG Projects\C#\Contact Mgmt\contacts.csv";
+        private string path=@"C:\WG Projects\C#\Contact Mgmt\resources\contacts.csv";
         private XmlParse XmlObj=new XmlParse();
         internal void CsvWrite(List<string?> details, bool flag){
             if(!File.Exists(path)){

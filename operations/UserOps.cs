@@ -23,7 +23,7 @@ namespace Watchguard.Phonebook.actions{
         }
 
         internal void editContact(){
-            string path=@"C:\WG Projects\C#\Contact Mgmt\contacts.csv";
+            string path=@"C:\WG Projects\C#\Contact Mgmt\resources\contacts.csv";
             List<string?> lines=new List<string?>();
             List<string> NodeTags=new List<string>(){
                 "Get_Name",
