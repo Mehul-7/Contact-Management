@@ -4,12 +4,12 @@ using Watchguard.Phonebook.actions;
 using Watchguard.Phonebook.XmlOperations;
 
 class Entry{
-    
     static void Main(){
         XmlParse XmlObj=new XmlParse();
         int choice=0;
+        Console.WriteLine(FiggleFonts.Standard.Render("WELCOME USER"));
         while(choice!=5){
-            Console.WriteLine(FiggleFonts.Standard.Render("WELCOME USER"));
+            Console.WriteLine(FiggleFonts.Standard.Render("MAIN MENU"));
             Console.WriteLine(XmlObj.GetNodeValue("user_menu"));
             choice=Convert.ToInt32(Console.ReadLine());
             AddUser obj=new();

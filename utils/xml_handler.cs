@@ -11,8 +11,8 @@ namespace Watchguard.Phonebook.XmlOperations{
         }
         
         internal string GetNodeValue(string tag){  
-            XmlNodeList? elemList = root.GetElementsByTagName(tag);
-            return elemList[0].InnerXml;
+            XmlNodeList elemList = root!.GetElementsByTagName(tag);
+            return elemList[0]!.InnerXml;
         }
     }
 }

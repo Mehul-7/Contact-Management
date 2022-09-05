@@ -2,13 +2,18 @@
     <Name_Prompt>Enter user name : </Name_Prompt>
     <Mobile_No>Enter Mobile No. : </Mobile_No>
     <Email_Prompt>Enter email ID : </Email_Prompt>
-    <Get_Choice>1-Update Mobile no.\n2-Update email</Get_Choice>
+    <Header>"Name, " + "Mobile No., " + "Email, " + Environment.NewLine</Header>
+    <Get_Choice>0-Search by Name
+1-Search by Mobile no.
+2-Search by email</Get_Choice>
     <Get_Name>Enter contact name : </Get_Name>
-    <Get_Value>Enter new value</Get_Value>
-    <user_menu>1 : Add New Contact\n
+    <Get_Value>Enter value</Get_Value>
+    <user_menu>1 : Add New Contact
 2 : Edit an existing contact
 3 : Delete Contact
 4 : Search Contact
 5 : Exit
     </user_menu>
+    <Edit_Field>1-Update Mobile No.
+2-Update email</Edit_Field>
 </String>

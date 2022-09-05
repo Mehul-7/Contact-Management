@@ -1,30 +1,30 @@
 using System;
+using Watchguard.Phonebook.XmlOperations;
 
 namespace Watchguard.Phonebook.CsvOperations{
     class CsvHandler{
         private string path=@"C:\WG Projects\C#\Contact Mgmt\contacts.csv";
-
-        internal void CsvWrite(List<string?> details){
-            string delimiter=", ";
+        private XmlParse XmlObj=new XmlParse();
+        internal void CsvWrite(List<string?> details, bool flag){
             if(!File.Exists(path)){
-                string header= "Name" + delimiter + "Mobile No." + delimiter + "Email" + delimiter + Environment.NewLine;
-                File.WriteAllText(path, header);
+                File.WriteAllText(path, XmlObj.GetNodeValue("Header"));
             }
-            using (StreamWriter writer = new StreamWriter(path, true))
+            using (StreamWriter writer = new StreamWriter(path, flag))
             {
                 foreach (String? line in details)
                     writer.WriteLine(line);
             }
         }
-        internal void CsvRead(int choice, string field, int flag){
+        
+        internal List<string?> CsvRead(int choice, string field, int flag){
+            List<string?> lines=new();
             if(File.Exists(path)){
-                List<string?> lines=new();
                 using(StreamReader reader=new StreamReader(path)){
                     string? line;
                     while((line=reader.ReadLine())!=null){
                         if(line.Contains(",")){
                             String[] split=line.Split(',');
-                            if(split[choice-1].Contains(field)){
+                            if(split[choice].Contains(field)){
                                 line=String.Join(",",split);
                                 if(flag==1)
                                     lines.Add(line);
@@ -32,19 +32,11 @@ namespace Watchguard.Phonebook.CsvOperations{
                             else if(flag==0){
                                 lines.Add(line);
                             }
-                        }
-                            
-                    }
-                }
-                if(flag==0){
-                    CsvWrite(lines);
-                }
-                else{
-                    foreach (var line in lines){
-                        Console.WriteLine(line);
+                        }     
                     }
                 }
             }
+            return lines;
         }
     }
 }
